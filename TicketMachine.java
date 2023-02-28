@@ -1,5 +1,5 @@
 /**
- * TicketMachine models a naive ticket machine that issues
+ * TicketMachine models a naive ticket machine that issuess
  * flat-fare tickets.
  * The price of a ticket is specified via the constructor.
  * It is a naive machine in the sense that it trusts its users
