@@ -32,7 +32,7 @@ public class TicketMachine
         total = 0;
         ticketNumber = 0;
     }
-
+    public Ticket
     /**
      * Return the price of a ticket.
      */
@@ -96,3 +96,5 @@ public class TicketMachine
         return "Ticket price: " + price + " cents. " + "Your total is " + total + ".";
     }
 }
+
+//public Pet(String petsName) {}
