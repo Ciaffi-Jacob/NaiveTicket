@@ -11,6 +11,7 @@
  */
 public class TicketMachine
 {
+    //public Pet(String petsName) {}
     // The price of a ticket from this machine.
     private Integer price;
     // The amount of money entered by a customer so far.
@@ -19,7 +20,6 @@ public class TicketMachine
     private Integer total;
     // The number of tickets printed.
     private Integer ticketNumber;
-
     /**
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
@@ -32,7 +32,6 @@ public class TicketMachine
         total = 0;
         ticketNumber = 0;
     }
-    public Ticket
     /**
      * Return the price of a ticket.
      */
@@ -77,8 +76,8 @@ public class TicketMachine
         ticketNumber++;
         return ticketNumber;
     }
-    
-
+    public void setPrice(Integer x =0){ total =0;}
+    public Integer getTotal(){ return total;}
     /**
      * Print a ticket.
      * Update the total collected and
@@ -93,8 +92,7 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
         
-        return "Ticket price: " + price + " cents. " + "Your total is " + total + ".";
+        return "# " + price + " cents. " + "Your total is " + total + ".";
     }
 }
 
-//public Pet(String petsName) {}
